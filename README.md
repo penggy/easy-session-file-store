@@ -1,4 +1,4 @@
-# session-file-store
+# easy-session-file-store
 
 Session file store for [Express](http://expressjs.com/) and [Connect](https://github.com/senchalabs/connect).
 Also you can use it with [Koa](http://koajs.com/)
