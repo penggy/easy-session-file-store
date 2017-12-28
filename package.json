@@ -1,6 +1,6 @@
 {
   "name": "easy-session-file-store",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Easy Session file store is a provision for storing session data in the session file",
   "keywords": [
     "session",
@@ -13,19 +13,19 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/valery-barysok/session-file-store"
+    "url": "https://github.com/penggy/session-file-store"
   },
   "bugs": {
-    "url": "https://github.com/valery-barysok/session-file-store/issues"
+    "url": "https://github.com/penggy/session-file-store/issues"
   },
-  "homepage": "https://github.com/valery-barysok/session-file-store",
+  "homepage": "https://github.com/penggy/session-file-store",
   "files": [
     "lib/",
     "LICENSE",
     "README.md",
     "index.js"
   ],
-  "author": "Valery Barysok <valery.barysok@gmail.com>",
+  "author": "Penggy <peng.wu@foxmail.com>",
   "contributors": [
     {
       "name": "Igor Svehla (wespen)"

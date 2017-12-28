@@ -3,12 +3,6 @@
 Session file store for [Express](http://expressjs.com/) and [Connect](https://github.com/senchalabs/connect).
 Also you can use it with [Koa](http://koajs.com/)
 
-[![NPM Version][npm-version-image]][npm-url]
-[![NPM Downloads][npm-downloads-image]][npm-url]
-[![Node.js Version][node-image]][node-url]
-[![Build Status][travis-image]][travis-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
-
 Session file store is a provision for storing session data in the session file
 
 ## Compatibility
@@ -21,7 +15,7 @@ Session file store is a provision for storing session data in the session file
 
 ### Installation
 
-    $ npm install session-file-store
+    $ npm install easy-session-file-store
 
 ### Running Tests
 
@@ -54,11 +48,11 @@ Session file store is a provision for storing session data in the session file
 
 ### Express or Connect integration
 
-Due to express `>= 4` changes, we need to pass `express-session` to the function `session-file-store` exports in order to extend `session.Store`:
+Due to express `>= 4` changes, we need to pass `express-session` to the function `easy-session-file-store` exports in order to extend `session.Store`:
 
 ```js
 var session = require('express-session');
-var FileStore = require('session-file-store')(session);
+var FileStore = require('easy-session-file-store')(session);
 
 app.use(session({
     store: new FileStore(options),
@@ -66,20 +60,6 @@ app.use(session({
 }));
 ```
 
-## Examples
-
-You can found basic work [app examples](https://github.com/valery-barysok/session-file-store/tree/master/examples)
-for [express](https://github.com/valery-barysok/session-file-store/tree/master/examples/express-example),
-[connect](https://github.com/valery-barysok/session-file-store/tree/master/examples/connect-example) and
-[koa](https://github.com/valery-barysok/session-file-store/tree/master/examples/koa-example) frameworks in `examples` folder.
-
-[npm-version-image]: https://img.shields.io/npm/v/session-file-store.svg?style=flat-square
-[npm-downloads-image]: https://img.shields.io/npm/dm/session-file-store.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/session-file-store
-[travis-image]: https://img.shields.io/travis/valery-barysok/session-file-store/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/valery-barysok/session-file-store
-[coveralls-image]: https://img.shields.io/coveralls/valery-barysok/session-file-store/master.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/valery-barysok/session-file-store?branch=master
-[node-image]: https://img.shields.io/node/v/session-file-store.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/easy-session-file-store
 [node-url]: http://nodejs.org/download/
 [express-session-url]: https://github.com/expressjs/session
